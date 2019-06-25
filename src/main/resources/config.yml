@@ -15,10 +15,10 @@
 ###################################
 Configuration:
   #If ability spy should be on, alerting admins when abilities are unlocked and upgraded
-  AbilitySpyEnabled: false
+  AbilitySpyEnabled: true
   ConstantExpUpdates:
     #If players should be sent an update everytime they gain exp
-    Enabled: false
+    Enabled: true
     #What type should the display be. BOSSBAR, SCOREBOARD, or ACTIONBAR
     DisplayType: BOSSBAR
     #Duration of the reminder. Only used for scoreboard and bossbar
@@ -36,7 +36,7 @@ Configuration:
   #Unused
   AutoUpdate: true
   #Use mcrpg.{skill}.level
-  UseLevelPerms: false
+  UseLevelPerms: true
   #Allow Health bars
   HealthBarEnabled: true
   #Display time in seconds
@@ -53,8 +53,8 @@ DisplayConfig:
     DisplayName: '&a%Skill%'
     Lines:
       CurrentLevel: '&bCurrent Level:'
-      CurrentExp: '&eExp:'
-      ExpNeeded: '&eExp Left:'
+      CurrentExp: '&eEXP:'
+      ExpNeeded: '&eEXP Left:'
   BossBar:
     DisplayName: '&5Lv.&e%Current_Level% &7- &5%Skill%: &e%Exp_To_Level%'
     Color:
@@ -110,7 +110,7 @@ PoseidonsGuardian:
   #What weapon should the guardian have
   Weapon: IRON_SWORD
   #Should the weapon be enchanted
-  Enchanted: false
+  Enchanted: true
   #What enchantments should be on the weapon
   Enchants:
     - 'DAMAGE_ALL:1'
